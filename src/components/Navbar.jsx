@@ -4,8 +4,8 @@ const Navbar = () => {
     return (
         <nav className="nav nav-pills justify-content-center p-2 shadow">
             <NavLink to="/" className="nav-link">Go Home</NavLink>
-            {/* <NavLink to="/films" className="nav-link">View Films</NavLink> */}
-            {/* <NavLink to="/people" className="nav-link">View People</NavLink> */}
+            <NavLink to="/films" className="nav-link">View Films</NavLink>
+            <NavLink to="/people" className="nav-link">View People</NavLink>
         </nav>
     );
 }
