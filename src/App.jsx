@@ -7,6 +7,8 @@ import Films from './pages/Films';
 import FilmDetails from './pages/FilmDetails';
 import People from './pages/People';
 import PeopleDetails from './pages/PeopleDetails';
+import Vehicles from "./pages/Vehicles";
+import VehicleDetails from "./pages/VehicleDetails";
 
 const App = () => {
     return(
@@ -18,6 +20,8 @@ const App = () => {
                 <Route path="/films/:filmid" element={<FilmDetails />} />
                 <Route path="/people" element={<People />}>View People</Route>
                 <Route path="/people/:personid" element={<PeopleDetails />} />
+                <Route path="/vehicles" element={<Vehicles />}>View Vehicles</Route>
+                <Route path="/vehicles/:vehicleid" element={<VehicleDetails />} />
                 <Route path="*">404 Not Found</Route>
             </Routes>
         </BrowserRouter>
