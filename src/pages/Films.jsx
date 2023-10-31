@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from 'react-router-dom';
 
 const Films = () => {
 
@@ -21,15 +22,19 @@ const Films = () => {
             </div>
 
             {/* load films as cards */}
-            <div className="container">
-                <section className="row justify-content-center mt-5">
+            <div className="container justify-content-center">
+                <section className="mt-5">
                     {films.map(film => (
-                        <div className="col-md-6" key={film.id}>
-                            <div className="card shadow my2 mb-2" style={{ width: "18rem" }}>
-                                <img src={film.image} className="card-img-top" />
+                        <div key={film.id}>
+                            {/* <div className="card shadow my2 mb-2" style={{ width: "18rem" }}> */}
+                            <div className="card shadow my2 mb-2" style={{width: "20rem", width: "auto"}}>
+                                {/* <img src={film.image} className="card-img-top" /> */}
                                 <div className="card-body">
                                     <h5 className="card-title">{film.title}</h5>
                                     <p className="card-text">{film.description}</p>
+                                    <Link to={`/films/${film.id}`} className="btn btn-outline-secondary">
+                                        More Details
+                                    </Link>
                                 </div>
                             </div>
                         </div>
