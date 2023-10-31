@@ -1,8 +1,5 @@
 const Home = () => {
     return (
-        // <div className="mt-5 text-center">
-        //     <h1>Home</h1>
-        // </div>
         <div className="container justify-content-center mt-5" style={{ height: "10rem", width: "50rem" }}>
             <div className="card">
                 <div className="card-body">
