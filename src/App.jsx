@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Films from './pages/Films';
 import FilmDetails from './pages/FilmDetails';
 import People from './pages/People';
+import PeopleDetails from './pages/PeopleDetails';
 
 const App = () => {
     return(
@@ -16,6 +17,7 @@ const App = () => {
                 <Route path="/films" element={<Films />}>View Films</Route>
                 <Route path="/films/:filmid" element={<FilmDetails />} />
                 <Route path="/people" element={<People />}>View People</Route>
+                <Route path="/people/:personid" element={<PeopleDetails />} />
                 <Route path="*">404 Not Found</Route>
             </Routes>
         </BrowserRouter>
