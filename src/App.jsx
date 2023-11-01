@@ -12,7 +12,7 @@ import VehicleDetails from "./pages/VehicleDetails";
 
 const App = () => {
     return(
-        <BrowserRouter>
+        <BrowserRouter basename='/studio-ghibli-routing'>
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />}>Go Home</Route>
