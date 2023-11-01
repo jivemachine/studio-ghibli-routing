@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/studio-ghibli-routing/static/css/main.b046793a.css",
-    "main.js": "/studio-ghibli-routing/static/js/main.e31c9e4f.js",
+    "main.js": "/studio-ghibli-routing/static/js/main.f04285d6.js",
     "index.html": "/studio-ghibli-routing/index.html",
     "main.b046793a.css.map": "/studio-ghibli-routing/static/css/main.b046793a.css.map",
-    "main.e31c9e4f.js.map": "/studio-ghibli-routing/static/js/main.e31c9e4f.js.map"
+    "main.f04285d6.js.map": "/studio-ghibli-routing/static/js/main.f04285d6.js.map"
   },
   "entrypoints": [
     "static/css/main.b046793a.css",
-    "static/js/main.e31c9e4f.js"
+    "static/js/main.f04285d6.js"
   ]
 }
