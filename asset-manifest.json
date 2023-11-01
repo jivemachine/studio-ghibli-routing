@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/studio-ghibli-routing/static/css/main.b046793a.css",
+    "main.js": "/studio-ghibli-routing/static/js/main.e31c9e4f.js",
+    "index.html": "/studio-ghibli-routing/index.html",
+    "main.b046793a.css.map": "/studio-ghibli-routing/static/css/main.b046793a.css.map",
+    "main.e31c9e4f.js.map": "/studio-ghibli-routing/static/js/main.e31c9e4f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b046793a.css",
+    "static/js/main.e31c9e4f.js"
+  ]
+}
