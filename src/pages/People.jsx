@@ -6,7 +6,7 @@ const People = () => {
     // getting all people in films using API
     const [people, setPeople] = useState([]);
     const getPeople = () => {
-        fetch('http://api-ghibli.herokuapp.com/people')
+        fetch('https://ghibliapi.vercel.app/people')
             .then(response => response.json())
             .then(allPeople => setPeople(allPeople))
     };

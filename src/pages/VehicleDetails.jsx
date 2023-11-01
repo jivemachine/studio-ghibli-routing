@@ -8,7 +8,7 @@ const VehicleDetails = () => {
     const [vehicleDetails, setVehicleDetails] = useState(null);
 
     useEffect(() => {
-        fetch(`http://api-ghibli.herokuapp.com/vehicles/${vehicleid}`)
+        fetch(`https://ghibliapi.vercel.app/vehicles/${vehicleid}`)
             .then(response => response.json())
             .then(vehicleData => setVehicleDetails(vehicleData))
             .catch(event => alert(event.message));

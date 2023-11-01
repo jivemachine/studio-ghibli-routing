@@ -6,7 +6,7 @@ const Films = () => {
     // getting all films using API
     const [films, setFilms] = useState([]);
     const getFilms = () => {
-        fetch('http://api-ghibli.herokuapp.com/films')
+        fetch('https://ghibliapi.vercel.app/films')
             .then(response => response.json())
             .then(allFilms => setFilms(allFilms))
     };

@@ -8,7 +8,7 @@ const FilmDetails = () => {
     const [filmDetails, setFilmDetails] = useState(null);
 
     useEffect(() => {
-        fetch(`http://api-ghibli.herokuapp.com/films/${filmid}`)
+        fetch(`https://ghibliapi.vercel.app/films/${filmid}`)
             .then(response => response.json())
             .then(filmData => setFilmDetails(filmData))
             .catch(event => alert(event.message));

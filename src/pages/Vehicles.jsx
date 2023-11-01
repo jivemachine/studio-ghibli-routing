@@ -6,7 +6,7 @@ const Vehicles = () => {
     // getting all films using API
     const [vehicles, setVehicles] = useState([]);
     const getVehicles = () => {
-        fetch('http://api-ghibli.herokuapp.com/vehicles')
+        fetch('https://ghibliapi.vercel.app/vehicles')
             .then(response => response.json())
             .then(allVehicles => setVehicles(allVehicles))
     };
